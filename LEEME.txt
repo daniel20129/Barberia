@@ -1,0 +1,21 @@
+SISTEMA DE BARBERÍA - INTEGRACIÓN CON MYSQL
+
+Archivos incluidos:
+- app.js: carga citas desde MySQL y usa PHP para registrar, editar y eliminar.
+- obtener_citas.php: consulta las citas.
+- guardar_cita.php: registra nuevas citas y actualiza las existentes.
+- eliminar_cita.php: elimina una cita.
+
+INSTALACIÓN
+1. Haz una copia de seguridad de los archivos actuales.
+2. Copia estos cuatro archivos en C:\\xampp\\htdocs\\barberia\\ y reemplaza los archivos con el mismo nombre.
+3. Conserva tu conexion.php actual. Debe conectarse a la base de datos `peluqueria`.
+4. Asegúrate de que Apache y MySQL estén iniciados en XAMPP.
+5. Abre http://localhost/barberia/ (no abras index.html directamente ni uses GitHub Pages para probar PHP).
+6. Presiona Ctrl+F5 para recargar.
+7. Prueba cargar las citas existentes, registrar una nueva, editarla y eliminar una cita.
+
+IMPORTANTE
+- No reemplaces index.html ni style.css.
+- No borres tu carpeta original ni la base de datos.
+- El sistema ya no guarda nuevas modificaciones en localStorage; los cambios se envían a MySQL.
